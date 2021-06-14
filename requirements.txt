@@ -3,4 +3,4 @@ Flask_SocketIO==5.1.0
 gevent==21.1.2
 gevent_websocket==0.10.1
 gunicorn==20.1.0
-eventlet>=0.24.1
+eventlet==0.30.2
