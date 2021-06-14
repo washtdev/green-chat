@@ -144,7 +144,7 @@
 		}
 
 		window.onload = () => {
-			const socket = io(location.hostname)
+			const socket = io()
 
 			socket.on('end_init', data => {
 				is_init = false
